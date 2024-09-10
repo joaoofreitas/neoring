@@ -1,4 +1,0 @@
-[37mE[37mSP-ROM:esp32c6-20220919
-B[37mu[37mild:Sep 19 2022
-rst:0x1 (POWERON),boot:0x4 (DOWNLOAD(USB/UART0[37m/[37mSDIO_FEI_FEO))
-waiting for download
