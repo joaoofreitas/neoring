@@ -1,0 +1,311 @@
+[37m [37mpointer 0x4087cda8: 100 0 0, 0x4087cdb8
+Neopixel ID: 8 in poin[37mt[37mer 0x4087cdb8: 100 0 0, 0x4087cdc8
+Neopixel ID: 9 in pointer 0[37mx[37m4087cdc8: 100 0 0, 0x4087cdd8
+Neopixel ID: 10 in pointer 0x408[37m7[37mcdd8: 100 0 0, 0x4087cde8
+Neopixel ID: 11 in pointer 0x4087cde[37m8[37m: 100 0 0, 0x4087cd38
+Buffer: 0x640000640000640000640000640000[37m6[37m40000640000640000640000640000640000640000
+Initializing Neopixe[37ml[37m Driver
+[0;32mI (386) gpio: GPIO[14]| InputEn: 0| OutputEn: 1[37m|[37m OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Driver Init[37mi[37malized
+Writing to Neopixel Ring
+[37m
+[37massert failed: rmt_ll_tx_set_channel_clock_div /IDF/components/[37mh[37mal/esp32c6/include/hal/rmt_ll.h:150 (div >= 1 && div <= 256 && [37m"[37mdivider out of range")
+Core  0 register dump:
+MEPC    : 0x408[37m0[37m175c  RA      : 0x40804de0  SP      : 0x4080eab0  GP      : 0x4[37m0[37m80a970  
+TP      : 0x40806ce8  T0      : 0x37363534  T1      :[37m [37m0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000031  S1   [37m [37m  : 0x00000001  A0      : 0x4080eaec  A1      : 0x4080a8d1  
+A[37m2[37m      : 0x00000001  A3      : 0x00000029  A4      : 0x00000001 [37m [37mA5      : 0x4080c000  
+A6      : 0x0000000c  A7      : 0x76757[37m4[37m73  S2      : 0x00000009  S3      : 0x4080ec56  
+S4      : 0x4[37m0[37m80a8d0  S5      : 0x00000000  S6      : 0x00000000  S7      : 0[37mx[37m00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10    [37m [37m: 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4 [37m [37m    : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  [37m
+[37mMSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x0000000[37m7[37m  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+Stack memor[37my[37m:
+4080eab0: 0x00000000 0x00000000 0x42010f44 0x408091ea 0x4080[37ma[37mee8 0x42010f44 0x4080aecc 0x42010668
+4080ead0: 0x4080aef8 0x40[37m8[37m0eae4 0x4080aefc 0x4201092c 0x4080a8d0 0x00303531 0x4087c610 0x[37m6[37m5737361
+4080eaf0: 0x66207472 0x656c6961 0x72203a64 0x6c5f746d [37m0[37mx78745f6c 0x7465735f 0x6168635f 0x6c656e6e
+4080eb10: 0x6f6c635[37mf[37m 0x645f6b63 0x2f207669 0x2f464449 0x706d6f63 0x6e656e6f 0x682f7[37m3[37m74 0x652f6c61
+4080eb30: 0x32337073 0x692f3663 0x756c636e 0x682[37mf[37m6564 0x722f6c61 0x6c5f746d 0x3a682e6c 0x20303531
+4080eb50: 0x7[37m6[37m696428 0x203d3e20 0x26262031 0x76696420 0x203d3c20 0x20363532 0[37mx[37m22202626 0x69766964
+4080eb70: 0x20726564 0x2074756f 0x7220666f[37m [37m0x65676e61 0x00002922 0x00000804 0x4080c814 0x00000018
+4080eb9[37m0[37m: 0x00000000 0x00000804 0x4080c814 0x40801fc6 0x00000804 0x0000[37m0[37m00c 0x00000000 0x00500040
+4080ebb0: 0x00000804 0x00000000 0x00[37m0[37m00000 0x42000000 0x4080091c 0x00000031 0x4087d0b0 0x4087ce20
+4[37m0[37m80ebd0: 0x4080f0d0 0x00000000 0x4080f0d4 0x42002116 0x00000000 [37m0[37mx00000000 0x4087d0b0 0x4087ce20
+4080ebf0: 0x4080f0d0 0x0000000[37m0[37m 0x4080f0d4 0x4200267e 0x00000000 0x4080f1d0 0x4080cb50 0x4200b[37m2[37mb0
+4080ec10: 0x00000000 0x4080ec20 0x00000002 0x00000000 0x000[37m0[37m0000 0x00000000 0x00000000 0x00000000
+4080ec30: 0x00000000 0x0[37m0[37m000000 0x4087cdf8 0x42000236 0x00000000 0x00000000 0xffffffff 0[37mx[37m7fefffff
+4080ec50: 0x00000000 0x3fe00000 0x4080f1d0 0x4080cce4[37m [37m0x00000000 0x3fc00000 0x00000000 0x40300000
+4080ec70: 0x420101[37m6[37m8 0x00000003 0x00000000 0x4003ca9c 0xa5a5a5a5 0x00000078 0x0000[37m0[37m000 0x4080f0a0
+4080ec90: 0x00000000 0x00000000 0x00000000 0x00[37m0[37m00009 0x00000000 0x00000006 0x00000001 0x00000001
+4080ecb0: 0x[37m0[37m0000000 0x4004e20c 0x4004aa54 0x00000000 0x4080eccc 0x00000000 [37m0[37mx00000000 0x42010391
+4080ecd0: 0x00000006 0x4080ed6f 0x0000000[37m1[37m 0xa5a5a5a5 0x00000000 0x3fc00000 0x00000000 0x40300000
+4080ec[37mf[37m0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0x4080f0e0
+4080ed10: 0xa5a5a5a5 0x00a5a5a5 0xa[37m5[37ma57830 0x00000003 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+[37m4[37m080ed30: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4080ed4c[37m [37m0x00000000 0x00000000 0x400494bc
+4080ed50: 0x00000001 0x4080ed[37me[37mf 0x00000001 0x4080ede8 0x00000008 0xa5a5a5a5 0xa5a5a5a5 0x3031[37m3[37m3a5
+4080ed70: 0xffffffff 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ed90: 0xa5a5a5a5 0x[37ma[37m5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5
+4080edb0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a[37m5[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080edd0: 0xa5a5a[37m5[37ma5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x373[37m8[37m3034 0x30366463
+4080edf0: 0x00000182 0xa5a5a5a5 0xa5a5a5a5 0xa[37m5[37ma5a5a5 0x420101f4 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee10: 0[37mx[37m0000000e 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5[37m [37m0xa5a5a5a5 0xa5a5a5a5
+4080ee30: 0x00000001 0xa5a5a5a5 0xa5a5a5[37ma[37m5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080e[37me[37m50: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee70: 0x00000000 0xa5a5a5a5 0x[37ma[37m5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5[37m
+[37m4080ee90: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x0000000[37m0[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+
+
+
+ELF file SHA256: aa69b[37mf[37m0f48bdd2b2
+
+Rebooting...
+E[37mS[37mP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boo[37mt[37m:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mo[37md[37me:DIO, clock div:2
+load:0x4086c410,len:0xd4c
+load:0x4086e610,[37ml[37men:0x2dd4
+load:0x40875728,len:0x17d0
+entry 0x4086c410
+[0;32[37mm[37mI (26) boot: ESP-IDF 5.1.2 2nd stage bootloader[0m
+[0;32mI ([37m2[37m7) boot: compile time Sep  9 2024 14:47:03[0m
+[0;32mI (28) b[37mo[37mot: chip revision: v0.0[0m
+[0;32mI (30) boot.esp32c6: SPI Sp[37me[37med      : 80MHz[0m
+[0;32mI (34) boot.esp32c6: SPI Mode      [37m [37m: DIO[0m
+[0;32mI (39) boot.esp32c6: SPI Flash Size : 4MB[0m[37m[37m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[37m[37m[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ##[37m [37mLabel            Usage          Type ST Offset   Length[0m
+[[37m0[37m;32mI (60) boot:  0 nvs              WiFi data        01 02 000[37m0[37m9000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF d[37ma[37mta          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2[37m [37mfactory          factory app      00 00 00010000 00100000[0m
+[37m[37m[0;32mI (83) boot: End of partition table[0m
+[0;32mI (87) es[37mp[37m_image: segment 0: paddr=00010020 vaddr=42010020 size=08578h ( [37m3[37m4168) map[0m
+[37m[37m[0;32mI (109) esp_image: segment 1: paddr=000185a0 vaddr=408000[37m0[37m0 size=07a78h ( 31352) load[0m
+[37m[37m[0;32mI (125) esp_image: segment 2: paddr=00020020 vaddr=420000[37m2[37m0 size=0fea0h ( 65184) map[0m
+[37m[37m[0;32mI (153) esp_image: segment 3: paddr=0002fec8 vaddr=40807a[37m7[37m8 size=026f0h (  9968) load[0m
+[0;32mI (159) esp_image: segm[37me[37mnt 4: paddr=000325c0 vaddr=4080a170 size=010d8h (  4312) load[[37m0[37mm
+[0;32mI (167) boot: Loaded app from partition at offset 0x1[37m0[37m000[0m
+[0;32mI (168) boot: Disabling RNG early entropy sourc[37me[37m...[0m
+[0;32mI (182) cpu_start: Unicore app[0m
+[0;32mI (1[37m8[37m2) cpu_start: Pro cpu up.[0m
+[37m[37m[0;33mW (192) clk: esp_perip_clk_init() has not been implemente[37md[37m yet[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m[37m[37m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI[37m [37m(199) cpu_start: Application information:[0m
+[0;32mI (201) c[37mp[37mu_start: Project name:     neoring[0m
+[0;32mI (206) cpu_star[37mt[37m: App version:      1[0m
+[0;32mI (211) cpu_start: Compile ti[37mm[37me:     Sep  9 2024 14:47:06[0m
+[0;32mI (217) cpu_start: ELF [37mf[37mile SHA256:  aa69bf0f48bdd2b2...[0m
+[0;32mI (223) cpu_start:[37m [37mESP-IDF:          5.1.2[0m
+[0;32mI (228) cpu_start: Min chip[37m [37mrev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     [37mv[37m0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.0[0m[37m[37m
+[0;32mI (242) heap_init: Initializing. RAM available for dyna[37mm[37mic allocation:[0m
+[0;32mI (249) heap_init: At 4080C110 len 0[37m0[37m070500 (449 KiB): D/IRAM[0m
+[0;32mI (256) heap_init: At 4087[37mC[37m610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (262) heap[37m_[37minit: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI ([37m2[37m69) spi_flash: detected chip: generic[0m
+[0;32mI (273) spi_f[37ml[37mash: flash io: dio[0m
+[0;32mI (277) sleep: Configure to isol[37ma[37mte all GPIO pins in sleep state[0m
+[0;32mI (284) sleep: Enab[37ml[37me automatic switching of GPIO sleep configuration[0m
+[0;32mI[37m [37m(291) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI (29[37m7[37m) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (302) app_[37ms[37mtart: Starting scheduler on CPU0[0m
+[0;32mI (306) main_task:[37m [37mStarted on CPU0[0m
+[0;32mI (306) main_task: Calling app_main[37m([37m)[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 100 0 0, 0x4087cd4[37m8[37m
+Neopixel ID: 1 in pointer 0x4087cd48: 100 0 0, 0x4087cd58
+Ne[37mo[37mpixel ID: 2 in pointer 0x4087cd58: 100 0 0, 0x4087cd68
+Neopixe[37ml[37m ID: 3 in pointer 0x4087cd68: 100 0 0, 0x4087cd78
+Neopixel ID:[37m [37m4 in pointer 0x4087cd78: 100 0 0, 0x4087cd88
+Neopixel ID: 5 in[37m [37mpointer 0x4087cd88: 100 0 0, 0x4087cd98
+Neopixel ID: 6 in poin[37mt[37mer 0x4087cd98: 100 0 0, 0x4087cda8
+Neopixel ID: 7 in pointer 0[37mx[37m4087cda8: 100 0 0, 0x4087cdb8
+Neopixel ID: 8 in pointer 0x4087[37mc[37mdb8: 100 0 0, 0x4087cdc8
+Neopixel ID: 9 in pointer 0x4087cdc8:[37m [37m100 0 0, 0x4087cdd8
+Neopixel ID: 10 in pointer 0x4087cdd8: 100[37m [37m0 0, 0x4087cde8
+Neopixel ID: 11 in pointer 0x4087cde8: 100 0 0[37m,[37m 0x4087cd38
+Buffer: 0x6400006400006400006400006400006400006400[37m0[37m0640000640000640000640000640000
+Initializing Neopixel Driver
+[37m[37m[0;32mI (386) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrai[37mn[37m: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Driver Initialized
+W[37mr[37miting to Neopixel Ring
+[37m
+[37massert failed: rmt_ll_tx_set_channel_clock_div /IDF/components/[37mh[37mal/esp32c6/include/hal/rmt_ll.h:150 (div >= 1 && div <= 256 && [37m"[37mdivider out of range")
+Core  0 register dump:
+MEPC    : 0x408[37m0[37m175c  RA      : 0x40804de0  SP      : 0x4080eab0  GP      : 0x4[37m0[37m80a970  
+TP      : 0x40806ce8  T0      : 0x37363534  T1      :[37m [37m0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000031  S1   [37m [37m  : 0x00000001  A0      : 0x4080eaec  A1      : 0x4080a8d1  
+A[37m2[37m      : 0x00000001  A3      : 0x00000029  A4      : 0x00000001 [37m [37mA5      : 0x4080c000  
+A6      : 0x0000000c  A7      : 0x76757[37m4[37m73  S2      : 0x00000009  S3      : 0x4080ec56  
+S4      : 0x4[37m0[37m80a8d0  S5      : 0x00000000  S6      : 0x00000000  S7      : 0[37mx[37m00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10    [37m [37m: 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4 [37m [37m    : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  [37m
+[37mMSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x0000000[37m7[37m  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+Stack memor[37my[37m:
+4080eab0: 0x00000000 0x00000000 0x42010f44 0x408091ea 0x4080[37ma[37mee8 0x42010f44 0x4080aecc 0x42010668
+4080ead0: 0x4080aef8 0x40[37m8[37m0eae4 0x4080aefc 0x4201092c 0x4080a8d0 0x00303531 0x4087c610 0x[37m6[37m5737361
+4080eaf0: 0x66207472 0x656c6961 0x72203a64 0x6c5f746d [37m0[37mx78745f6c 0x7465735f 0x6168635f 0x6c656e6e
+4080eb10: 0x6f6c635[37mf[37m 0x645f6b63 0x2f207669 0x2f464449 0x706d6f63 0x6e656e6f 0x682f7[37m3[37m74 0x652f6c61
+4080eb30: 0x32337073 0x692f3663 0x756c636e 0x682[37mf[37m6564 0x722f6c61 0x6c5f746d 0x3a682e6c 0x20303531
+4080eb50: 0x7[37m6[37m696428 0x203d3e20 0x26262031 0x76696420 0x203d3c20 0x20363532 0[37mx[37m22202626 0x69766964
+4080eb70: 0x20726564 0x2074756f 0x7220666f[37m [37m0x65676e61 0x00002922 0x00000804 0x4080c814 0x00000018
+4080eb9[37m0[37m: 0x00000000 0x00000804 0x4080c814 0x40801fc6 0x00000804 0x0000[37m0[37m00c 0x00000000 0x00500040
+4080ebb0: 0x00000804 0x00000000 0x00[37m0[37m00000 0x42000000 0x4080091c 0x00000031 0x4087d0b0 0x4087ce20
+4[37m0[37m80ebd0: 0x4080f0d0 0x00000000 0x4080f0d4 0x42002116 0x00000000 [37m0[37mx00000000 0x4087d0b0 0x4087ce20
+4080ebf0: 0x4080f0d0 0x0000000[37m0[37m 0x4080f0d4 0x4200267e 0x00000000 0x4080f1d0 0x4080cb50 0x4200b[37m2[37mb0
+4080ec10: 0x00000000 0x4080ec20 0x00000002 0x00000000 0x000[37m0[37m0000 0x00000000 0x00000000 0x00000000
+4080ec30: 0x00000000 0x0[37m0[37m000000 0x4087cdf8 0x42000236 0x00000000 0x00000000 0xffffffff 0[37mx[37m7fefffff
+4080ec50: 0x00000000 0x3fe00000 0x4080f1d0 0x4080cce4[37m [37m0x00000000 0x3fc00000 0x00000000 0x40300000
+4080ec70: 0x420101[37m6[37m8 0x00000003 0x00000000 0x4003ca9c 0xa5a5a5a5 0x00000078 0x0000[37m0[37m000 0x4080f0a0
+4080ec90: 0x00000000 0x00000000 0x00000000 0x00[37m0[37m00009 0x00000000 0x00000006 0x00000001 0x00000001
+4080ecb0: 0x[37m0[37m0000000 0x4004e20c 0x4004aa54 0x00000000 0x4080eccc 0x00000000 [37m0[37mx00000000 0x42010391
+4080ecd0: 0x00000006 0x4080ed6f 0x0000000[37m1[37m 0xa5a5a5a5 0x00000000 0x3fc00000 0x00000000 0x40300000
+4080ec[37mf[37m0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0x4080f0e0
+4080ed10: 0xa5a5a5a5 0x00a5a5a5 0xa[37m5[37ma57830 0x00000003 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+[37m4[37m080ed30: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4080ed4c[37m [37m0x00000000 0x00000000 0x400494bc
+4080ed50: 0x00000001 0x4080ed[37me[37mf 0x00000001 0x4080ede8 0x00000008 0xa5a5a5a5 0xa5a5a5a5 0x3031[37m3[37m3a5
+4080ed70: 0xffffffff 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ed90: 0xa5a5a5a5 0x[37ma[37m5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5
+4080edb0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a[37m5[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080edd0: 0xa5a5a[37m5[37ma5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x373[37m8[37m3034 0x30366463
+4080edf0: 0x00000182 0xa5a5a5a5 0xa5a5a5a5 0xa[37m5[37ma5a5a5 0x420101f4 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee10: 0[37mx[37m0000000e 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5[37m [37m0xa5a5a5a5 0xa5a5a5a5
+4080ee30: 0x00000001 0xa5a5a5a5 0xa5a5a5[37ma[37m5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080e[37me[37m50: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee70: 0x00000000 0xa5a5a5a5 0x[37ma[37m5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5[37m
+[37m4080ee90: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x0000000[37m0[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+
+
+
+ELF file SHA256: aa69b[37mf[37m0f48bdd2b2
+
+Rebooting...
+E[37mS[37mP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boo[37mt[37m:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mo[37md[37me:DIO, clock div:2
+load:0x4086c410,len:0xd4c
+load:0x4086e610,[37ml[37men:0x2dd4
+load:0x40875728,len:0x17d0
+entry 0x4086c410
+[0;32[37mm[37mI (26) boot: ESP-IDF 5.1.2 2nd stage bootloader[0m
+[0;32mI ([37m2[37m7) boot: compile time Sep  9 2024 14:47:03[0m
+[0;32mI (28) b[37mo[37mot: chip revision: v0.0[0m
+[0;32mI (30) boot.esp32c6: SPI Sp[37me[37med      : 80MHz[0m
+[0;32mI (34) boot.esp32c6: SPI Mode      [37m [37m: DIO[0m
+[0;32mI (39) boot.esp32c6: SPI Flash Size : 4MB[0m[37m[37m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[37m[37m[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ##[37m [37mLabel            Usage          Type ST Offset   Length[0m
+[[37m0[37m;32mI (60) boot:  0 nvs              WiFi data        01 02 000[37m0[37m9000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF d[37ma[37mta          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2[37m [37mfactory          factory app      00 00 00010000 00100000[0m
+[37m[37m[0;32mI (83) boot: End of partition table[0m
+[0;32mI (87) es[37mp[37m_image: segment 0: paddr=00010020 vaddr=42010020 size=08578h ( [37m3[37m4168) map[0m
+[37m[37m[0;32mI (109) esp_image: segment 1: paddr=000185a0 vaddr=408000[37m0[37m0 size=07a78h ( 31352) load[0m
+[37m[37m[0;32mI (125) esp_image: segment 2: paddr=00020020 vaddr=420000[37m2[37m0 size=0fea0h ( 65184) map[0m
+[37m[37m[0;32mI (153) esp_image: segment 3: paddr=0002fec8 vaddr=40807a[37m7[37m8 size=026f0h (  9968) load[0m
+[0;32mI (159) esp_image: segm[37me[37mnt 4: paddr=000325c0 vaddr=4080a170 size=010d8h (  4312) load[[37m0[37mm
+[0;32mI (167) boot: Loaded app from partition at offset 0x1[37m0[37m000[0m
+[0;32mI (168) boot: Disabling RNG early entropy sourc[37me[37m...[0m
+[0;32mI (182) cpu_start: Unicore app[0m
+[0;32mI (1[37m8[37m2) cpu_start: Pro cpu up.[0m
+[37m[37m[0;33mW (192) clk: esp_perip_clk_init() has not been implemente[37md[37m yet[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m[37m[37m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI[37m [37m(199) cpu_start: Application information:[0m
+[0;32mI (201) c[37mp[37mu_start: Project name:     neoring[0m
+[0;32mI (206) cpu_star[37mt[37m: App version:      1[0m
+[0;32mI (211) cpu_start: Compile ti[37mm[37me:     Sep  9 2024 14:47:06[0m
+[0;32mI (217) cpu_start: ELF [37mf[37mile SHA256:  aa69bf0f48bdd2b2...[0m
+[0;32mI (223) cpu_start:[37m [37mESP-IDF:          5.1.2[0m
+[0;32mI (228) cpu_start: Min chip[37m [37mrev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     [37mv[37m0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.0[0m[37m[37m
+[0;32mI (242) heap_init: Initializing. RAM available for dyna[37mm[37mic allocation:[0m
+[0;32mI (249) heap_init: At 4080C110 len 0[37m0[37m070500 (449 KiB): D/IRAM[0m
+[0;32mI (256) heap_init: At 4087[37mC[37m610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (262) heap[37m_[37minit: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI ([37m2[37m69) spi_flash: detected chip: generic[0m
+[0;32mI (273) spi_f[37ml[37mash: flash io: dio[0m
+[0;32mI (277) sleep: Configure to isol[37ma[37mte all GPIO pins in sleep state[0m
+[0;32mI (284) sleep: Enab[37ml[37me automatic switching of GPIO sleep configuration[0m
+[0;32mI[37m [37m(291) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI (29[37m7[37m) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (302) app_[37ms[37mtart: Starting scheduler on CPU0[0m
+[0;32mI (306) main_task:[37m [37mStarted on CPU0[0m
+[0;32mI (306) main_task: Calling app_main[37m([37m)[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 100 0 0, 0x4087cd4[37m8[37m
+Neopixel ID: 1 in pointer 0x4087cd48: 100 0 0, 0x4087cd58
+Ne[37mo[37mpixel ID: 2 in pointer 0x4087cd58: 100 0 0, 0x4087cd68
+Neopixe[37ml[37m ID: 3 in pointer 0x4087cd68: 100 0 0, 0x4087cd78
+Neopixel ID:[37m [37m4 in pointer 0x4087cd78: 100 0 0, 0x4087cd88
+Neopixel ID: 5 in[37m [37mpointer 0x4087cd88: 100 0 0, 0x4087cd98
+Neopixel ID: 6 in poin[37mt[37mer 0x4087cd98: 100 0 0, 0x4087cda8
+Neopixel ID: 7 in pointer 0[37mx[37m4087cda8: 100 0 0, 0x4087cdb8
+Neopixel ID: 8 in pointer 0x4087[37mc[37mdb8: 100 0 0, 0x4087cdc8
+Neopixel ID: 9 in pointer 0x4087cdc8:[37m [37m100 0 0, 0x4087cdd8
+Neopixel ID: 10 in pointer 0x4087cdd8: 100[37m [37m0 0, 0x4087cde8
+Neopixel ID: 11 in pointer 0x4087cde8: 100 0 0[37m,[37m 0x4087cd38
+Buffer: 0x6400006400006400006400006400006400006400[37m0[37m0640000640000640000640000640000
+Initializing Neopixel Driver
+[37m[37m[0;32mI (386) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrai[37mn[37m: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Driver Initialized
+W[37mr[37miting to Neopixel Ring
+[37m
+[37massert failed: rmt_ll_tx_set_channel_clock_div /IDF/components/[37mh[37mal/esp32c6/include/hal/rmt_ll.h:150 (div >= 1 && div <= 256 && [37m"[37mdivider out of range")
+Core  0 register dump:
+MEPC    : 0x408[37m0[37m175c  RA      : 0x40804de0  SP      : 0x4080eab0  GP      : 0x4[37m0[37m80a970  
+TP      : 0x40806ce8  T0      : 0x37363534  T1      :[37m [37m0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000031  S1   [37m [37m  : 0x00000001  A0      : 0x4080eaec  A1      : 0x4080a8d1  
+A[37m2[37m      : 0x00000001  A3      : 0x00000029  A4      : 0x00000001 [37m [37mA5      : 0x4080c000  
+A6      : 0x0000000c  A7      : 0x76757[37m4[37m73  S2      : 0x00000009  S3      : 0x4080ec56  
+S4      : 0x4[37m0[37m80a8d0  S5      : 0x00000000  S6      : 0x00000000  S7      : 0[37mx[37m00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10    [37m [37m: 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4 [37m [37m    : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  [37m
+[37mMSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x0000000[37m7[37m  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+Stack memor[37my[37m:
+4080eab0: 0x00000000 0x00000000 0x42010f44 0x408091ea 0x4080[37ma[37mee8 0x42010f44 0x4080aecc 0x42010668
+4080ead0: 0x4080aef8 0x40[37m8[37m0eae4 0x4080aefc 0x4201092c 0x4080a8d0 0x00303531 0x4087c610 0x[37m6[37m5737361
+4080eaf0: 0x66207472 0x656c6961 0x72203a64 0x6c5f746d [37m0[37mx78745f6c 0x7465735f 0x6168635f 0x6c656e6e
+4080eb10: 0x6f6c635[37mf[37m 0x645f6b63 0x2f207669 0x2f464449 0x706d6f63 0x6e656e6f 0x682f7[37m3[37m74 0x652f6c61
+4080eb30: 0x32337073 0x692f3663 0x756c636e 0x682[37mf[37m6564 0x722f6c61 0x6c5f746d 0x3a682e6c 0x20303531
+4080eb50: 0x7[37m6[37m696428 0x203d3e20 0x26262031 0x76696420 0x203d3c20 0x20363532 0[37mx[37m22202626 0x69766964
+4080eb70: 0x20726564 0x2074756f 0x7220666f[37m [37m0x65676e61 0x00002922 0x00000804 0x4080c814 0x00000018
+4080eb9[37m0[37m: 0x00000000 0x00000804 0x4080c814 0x40801fc6 0x00000804 0x0000[37m0[37m00c 0x00000000 0x00500040
+4080ebb0: 0x00000804 0x00000000 0x00[37m0[37m00000 0x42000000 0x4080091c 0x00000031 0x4087d0b0 0x4087ce20
+4[37m0[37m80ebd0: 0x4080f0d0 0x00000000 0x4080f0d4 0x42002116 0x00000000 [37m0[37mx00000000 0x4087d0b0 0x4087ce20
+4080ebf0: 0x4080f0d0 0x0000000[37m0[37m 0x4080f0d4 0x4200267e 0x00000000 0x4080f1d0 0x4080cb50 0x4200b[37m2[37mb0
+4080ec10: 0x00000000 0x4080ec20 0x00000002 0x00000000 0x000[37m0[37m0000 0x00000000 0x00000000 0x00000000
+4080ec30: 0x00000000 0x0[37m0[37m000000 0x4087cdf8 0x42000236 0x00000000 0x00000000 0xffffffff 0[37mx[37m7fefffff
+4080ec50: 0x00000000 0x3fe00000 0x4080f1d0 0x4080cce4[37m [37m0x00000000 0x3fc00000 0x00000000 0x40300000
+4080ec70: 0x420101[37m6[37m8 0x00000003 0x00000000 0x4003ca9c 0xa5a5a5a5 0x00000078 0x0000[37m0[37m000 0x4080f0a0
+4080ec90: 0x00000000 0x00000000 0x00000000 0x00[37m0[37m00009 0x00000000 0x00000006 0x00000001 0x00000001
+4080ecb0: 0x[37m0[37m0000000 0x4004e20c 0x4004aa54 0x00000000 0x4080eccc 0x00000000 [37m0[37mx00000000 0x42010391
+4080ecd0: 0x00000006 0x4080ed6f 0x0000000[37m1[37m 0xa5a5a5a5 0x00000000 0x3fc00000 0x00000000 0x40300000
+4080ec[37mf[37m0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0x4080f0e0
+4080ed10: 0xa5a5a5a5 0x00a5a5a5 0xa[37m5[37ma57830 0x00000003 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+[37m4[37m080ed30: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4080ed4c[37m [37m0x00000000 0x00000000 0x400494bc
+4080ed50: 0x00000001 0x4080ed[37me[37mf 0x00000001 0x4080ede8 0x00000008 0xa5a5a5a5 0xa5a5a5a5 0x3031[37m3[37m3a5
+4080ed70: 0xffffffff 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ed90: 0xa5a5a5a5 0x[37ma[37m5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5
+4080edb0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a[37m5[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080edd0: 0xa5a5a[37m5[37ma5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x373[37m8[37m3034 0x30366463
+4080edf0: 0x00000182 0xa5a5a5a5 0xa5a5a5a5 0xa[37m5[37ma5a5a5 0x420101f4 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee10: 0[37mx[37m0000000e 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5[37m [37m0xa5a5a5a5 0xa5a5a5a5
+4080ee30: 0x00000001 0xa5a5a5a5 0xa5a5a5[37ma[37m5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080e[37me[37m50: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee70: 0x00000000 0xa5a5a5a5 0x[37ma[37m5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5[37m
+[37m4080ee90: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x0000000

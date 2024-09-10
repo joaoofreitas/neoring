@@ -1,0 +1,76 @@
+[37mE[37mSP-ROM:esp32c6-20220919
+B[37mu[37mild:Sep 19 2022
+rst:0x1 (POWERON),boot:0xc (SPI_FAST_FLASH_BOO[37mT[37m)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x4086c410,len:0xd4c[37m[37m
+load:0x4086e610,len:0x2dd4
+load:0x40875728,len:0x17d0
+entry [37m0[37mx4086c410
+[0;32mI (23) boot: ESP-IDF 5.1.2 2nd stage bootload[37me[37mr[0m
+[0;32mI (24) boot: compile time Sep  9 2024 14:47:03[0[37mm[37m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (26) bo[37mo[37mt.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32[37mc[37m6: SPI Mode       : DIO[0m
+[0;32mI (36) boot.esp32c6: SPI Fl[37ma[37msh Size : 4MB[0m
+[0;32mI (41) boot: Enabling RNG early entro[37mp[37my source...[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;[37m3[37m2mI (49) boot: ## Label            Usage          Type ST Offse[37mt[37m   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi dat[37ma[37m        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy[37m_[37minit         RF data          01 01 0000f000 00001000[0m
+[0;[37m3[37m2mI (72) boot:  2 factory          factory app      00 00 00010[37m0[37m00 00100000[0m
+[0;32mI (79) boot: End of partition table[0m[37m[37m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=42010[37m0[37m20 size=079e0h ( 31200) map[0m
+[0;32mI (98) esp_image: segme[37mn[37mt 1: paddr=00017a08 vaddr=40800000 size=08610h ( 34320) load[0[37mm[37m
+[0;32mI (108) esp_image: segment 2: paddr=00020020 vaddr=420[37m0[37m0020 size=0e270h ( 57968) map[0m
+[0;32mI (121) esp_image: se[37mg[37mment 3: paddr=0002e298 vaddr=40808610 size=010c8h (  4296) load[37m[37m[0m
+[0;32mI (123) esp_image: segment 4: paddr=0002f368 vaddr=[37m4[37m08096e0 size=01090h (  4240) load[0m
+[0;32mI (130) boot: Loa[37md[37med app from partition at offset 0x10000[0m
+[0;32mI (133) boo[37mt[37m: Disabling RNG early entropy source...[0m
+[0;32mI (149) cpu[37m_[37mstart: Unicore app[0m
+[0;32mI (150) cpu_start: Pro cpu up.[[37m0[37mm
+[0;33mW (159) clk: esp_perip_clk_init() has not been implem[37me[37mnted yet[0m
+[0;32mI (165) cpu_start: Pro cpu start user code[37m[37m[0m
+[0;32mI (165) cpu_start: cpu freq: 160000000 Hz[0m
+[0;[37m3[37m2mI (166) cpu_start: Application information:[0m
+[0;32mI (16[37m8[37m) cpu_start: Project name:     neoring[0m
+[0;32mI (173) cpu_[37ms[37mtart: App version:      1[0m
+[0;32mI (178) cpu_start: Compil[37me[37m time:     Sep  9 2024 14:47:06[0m
+[0;32mI (184) cpu_start: [37mE[37mLF file SHA256:  b2fdf2b5f1ff53c8...[0m
+[0;32mI (190) cpu_st[37ma[37mrt: ESP-IDF:          5.1.2[0m
+[0;32mI (194) cpu_start: Min [37mc[37mhip rev:     v0.0[0m
+[0;32mI (199) cpu_start: Max chip rev: [37m [37m   v0.99 [0m
+[0;32mI (204) cpu_start: Chip rev:         v0.0[37m[37m[0m
+[0;32mI (209) heap_init: Initializing. RAM available for [37md[37mynamic allocation:[0m
+[0;32mI (216) heap_init: At 4080B620 l[37me[37mn 00070FF0 (451 KiB): D/IRAM[0m
+[0;32mI (222) heap_init: At [37m4[37m087C610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (229) [37mh[37meap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32[37mm[37mI (236) spi_flash: detected chip: generic[0m
+[0;32mI (240) s[37mp[37mi_flash: flash io: dio[0m
+[0;32mI (244) sleep: Configure to [37mi[37msolate all GPIO pins in sleep state[0m
+[0;32mI (251) sleep: [37mE[37mnable automatic switching of GPIO sleep configuration[0m
+[0;[37m3[37m2mI (258) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI[37m [37m(263) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (268) [37ma[37mpp_start: Starting scheduler on CPU0[0m
+[0;32mI (273) main_t[37ma[37msk: Started on CPU0[0m
+[0;32mI (273) main_task: Calling app_[37mm[37main()[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 100 0 0, 0x408[37m7[37mcd48
+Neopixel ID: 1 in pointer 0x4087cd48: 100 0 0, 0x4087cd58[37m[37m
+Neopixel ID: 2 in pointer 0x4087cd58: 100 0 0, 0x4087cd68
+Neo[37mp[37mixel ID: 3 in pointer 0x4087cd68: 100 0 0, 0x4087cd78
+Neopixel[37m [37mID: 4 in pointer 0x4087cd78: 100 0 0, 0x4087cd88
+Neopixel ID: [37m5[37m in pointer 0x4087cd88: 100 0 0, 0x4087cd98
+Neopixel ID: 6 in [37mp[37mointer 0x4087cd98: 100 0 0, 0x4087cda8
+Neopixel ID: 7 in point[37me[37mr 0x4087cda8: 100 0 0, 0x4087cdb8
+Neopixel ID: 8 in pointer 0x[37m4[37m087cdb8: 100 0 0, 0x4087cdc8
+Neopixel ID: 9 in pointer 0x4087c[37md[37mc8: 100 0 0, 0x4087cdd8
+Neopixel ID: 10 in pointer 0x4087cdd8:[37m [37m100 0 0, 0x4087cde8
+Neopixel ID: 11 in pointer 0x4087cde8: 100[37m [37m0 0, 0x4087cd38
+Buffer: 0x640000640000640000640000640000640000[37m6[37m40000640000640000640000640000640000
+Initializing Neopixel Driv[37me[37mr
+[0;32mI (353) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| Open[37mD[37mrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Driver Initialize[37md[37m
+Writing to Neopixel Ring
+
+Done
+[0;32mI (363) main_task: R[37me[37mturned from app_main()[0m

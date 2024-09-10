@@ -1,0 +1,327 @@
+[37mf[37m010: 0x00000013 0x4080f1d0 0x4080cb50 0x4080cce4 0x00000000 0xf[37mf[37mffffff 0x4080cb50 0x00000000
+
+
+
+ELF file SHA256: eeb8f8ff88[37m0[37m9c495
+
+Rebooting...
+E[37mS[37mP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boo[37mt[37m:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mo[37md[37me:DIO, clock div:2
+load:0x4086c410,len:0xd4c
+load:0x4086e610,[37ml[37men:0x2dd4
+load:0x40875728,len:0x17d0
+entry 0x4086c410
+[0;32[37mm[37mI (26) boot: ESP-IDF 5.1.2 2nd stage bootloader[0m
+[0;32mI ([37m2[37m7) boot: compile time Sep  9 2024 14:47:03[0m
+[0;32mI (28) b[37mo[37mot: chip revision: v0.0[0m
+[0;32mI (30) boot.esp32c6: SPI Sp[37me[37med      : 80MHz[0m
+[0;32mI (34) boot.esp32c6: SPI Mode      [37m [37m: DIO[0m
+[0;32mI (39) boot.esp32c6: SPI Flash Size : 4MB[0m[37m[37m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[37m[37m[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ##[37m [37mLabel            Usage          Type ST Offset   Length[0m
+[[37m0[37m;32mI (60) boot:  0 nvs              WiFi data        01 02 000[37m0[37m9000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF d[37ma[37mta          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2[37m [37mfactory          factory app      00 00 00010000 00100000[0m
+[37m[37m[0;32mI (83) boot: End of partition table[0m
+[0;32mI (87) es[37mp[37m_image: segment 0: paddr=00010020 vaddr=42010020 size=08578h ( [37m3[37m4168) map[0m
+[37m[37m[0;32mI (109) esp_image: segment 1: paddr=000185a0 vaddr=408000[37m0[37m0 size=07a78h ( 31352) load[0m
+[37m[37m[0;32mI (125) esp_image: segment 2: paddr=00020020 vaddr=420000[37m2[37m0 size=0fea0h ( 65184) map[0m
+[37m[37m[0;32mI (153) esp_image: segment 3: paddr=0002fec8 vaddr=40807a[37m7[37m8 size=026f0h (  9968) load[0m
+[0;32mI (159) esp_image: segm[37me[37mnt 4: paddr=000325c0 vaddr=4080a170 size=010d8h (  4312) load[[37m0[37mm
+[0;32mI (167) boot: Loaded app from partition at offset 0x1[37m0[37m000[0m
+[0;32mI (168) boot: Disabling RNG early entropy sourc[37me[37m...[0m
+[0;32mI (182) cpu_start: Unicore app[0m
+[0;32mI (1[37m8[37m2) cpu_start: Pro cpu up.[0m
+[37m[37m[0;33mW (192) clk: esp_perip_clk_init() has not been implemente[37md[37m yet[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m[37m[37m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI[37m [37m(199) cpu_start: Application information:[0m
+[0;32mI (201) c[37mp[37mu_start: Project name:     neoring[0m
+[0;32mI (206) cpu_star[37mt[37m: App version:      1[0m
+[0;32mI (211) cpu_start: Compile ti[37mm[37me:     Sep  9 2024 14:47:06[0m
+[0;32mI (217) cpu_start: ELF [37mf[37mile SHA256:  eeb8f8ff8809c495...[0m
+[0;32mI (223) cpu_start:[37m [37mESP-IDF:          5.1.2[0m
+[0;32mI (228) cpu_start: Min chip[37m [37mrev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     [37mv[37m0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.0[0m[37m[37m
+[0;32mI (242) heap_init: Initializing. RAM available for dyna[37mm[37mic allocation:[0m
+[0;32mI (249) heap_init: At 4080C110 len 0[37m0[37m070500 (449 KiB): D/IRAM[0m
+[0;32mI (256) heap_init: At 4087[37mC[37m610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (262) heap[37m_[37minit: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI ([37m2[37m69) spi_flash: detected chip: generic[0m
+[0;32mI (273) spi_f[37ml[37mash: flash io: dio[0m
+[0;32mI (277) sleep: Configure to isol[37ma[37mte all GPIO pins in sleep state[0m
+[0;32mI (284) sleep: Enab[37ml[37me automatic switching of GPIO sleep configuration[0m
+[0;32mI[37m [37m(291) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI (29[37m7[37m) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (302) app_[37ms[37mtart: Starting scheduler on CPU0[0m
+[0;32mI (306) main_task:[37m [37mStarted on CPU0[0m
+[0;32mI (306) main_task: Calling app_main[37m([37m)[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 100 0 0, 0x4087cd4[37m8[37m
+Neopixel ID: 1 in pointer 0x4087cd48: 100 0 0, 0x4087cd58
+Ne[37mo[37mpixel ID: 2 in pointer 0x4087cd58: 100 0 0, 0x4087cd68
+Neopixe[37ml[37m ID: 3 in pointer 0x4087cd68: 100 0 0, 0x4087cd78
+Neopixel ID:[37m [37m4 in pointer 0x4087cd78: 100 0 0, 0x4087cd88
+Neopixel ID: 5 in[37m [37mpointer 0x4087cd88: 100 0 0, 0x4087cd98
+Neopixel ID: 6 in poin[37mt[37mer 0x4087cd98: 100 0 0, 0x4087cda8
+Neopixel ID: 7 in pointer 0[37mx[37m4087cda8: 100 0 0, 0x4087cdb8
+Neopixel ID: 8 in pointer 0x4087[37mc[37mdb8: 100 0 0, 0x4087cdc8
+Neopixel ID: 9 in pointer 0x4087cdc8:[37m [37m100 0 0, 0x4087cdd8
+Neopixel ID: 10 in pointer 0x4087cdd8: 100[37m [37m0 0, 0x4087cde8
+Neopixel ID: 11 in pointer 0x4087cde8: 100 0 0[37m,[37m 0x4087cd38
+Buffer: 0x6400006400006400006400006400006400006400[37m0[37m0640000640000640000640000640000
+Initializing Neopixel Driver
+[37m[37m[0;32mI (386) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrai[37mn[37m: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Driver Initialized
+W[37mr[37miting to Neopixel Ring
+[0;31mE (396) rmt: rmt_new_tx_channel([37m2[37m15): mem_block_symbols must be even and at least 48[0m
+G[37mu[37mru Meditation Error: Core  0 panic'ed (Load access fault). Exce[37mp[37mtion was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4200[37m1[37mb14  RA      : 0x4200023c  SP      : 0x4080ec30  GP      : 0x40[37m8[37m0a970  
+TP      : 0x40806ce8  T0      : 0x40028192  T1      : [37m0[37mx40000000  T2      : 0x00000000  
+S0/FP   : 0x4087cdf8  S1    [37m [37m : 0x00000000  A0      : 0x0000000b  A1      : 0x4080e818  
+A2[37m [37m     : 0x00000000  A3      : 0x00000001  A4      : 0x4080c000  [37mA[37m5      : 0x00000000  
+A6      : 0x00000001  A7      : 0x000000[37m0[37ma  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00[37m0[37m00000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x[37m0[37m0000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     [37m:[37m 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4  [37m [37m   : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
+[37mM[37mSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000005[37m [37m MTVAL   : 0x0000002f  
+MHARTID : 0x00000000  
+
+Stack memory[37m:[37m
+4080ec30: 0x00000000 0x00000000 0x4087cdf8 0x4200023c 0x00000[37m0[37m00 0x00000000 0xffffffff 0x7fefffff
+4080ec50: 0x00000000 0x3fe[37m0[37m0000 0x4080f1d0 0x4080cce4 0x00000000 0x3fc00000 0x00000000 0x4[37m0[37m300000
+4080ec70: 0x42010168 0x00000003 0x00000000 0x4003ca9c 0[37mx[37ma5a5a5a5 0x00000078 0x00000000 0x4080f0a0
+4080ec90: 0x00000000[37m [37m0x00000000 0x00000000 0x00000009 0x00000000 0x00000006 0x000000[37m0[37m1 0x00000001
+4080ecb0: 0x00000000 0x4004e20c 0x4004aa54 0x0000[37m0[37m000 0x4080eccc 0x00000000 0x00000000 0x42010391
+4080ecd0: 0x00[37m0[37m00006 0x4080ed6f 0x00000001 0xa5a5a5a5 0x00000000 0x3fc00000 0x[37m0[37m0000000 0x40300000
+4080ecf0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4080f0e0
+4080ed10[37m:[37m 0xa5a5a5a5 0x00a5a5a5 0xa5a57830 0x00000003 0x00000000 0xa5a5a[37m5[37ma5 0xa5a5a5a5 0xa5a5a5a5
+4080ed30: 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0x4080ed4c 0x00000000 0x00000000 0x400494bc
+40[37m8[37m0ed50: 0x00000001 0x4080edef 0x00000001 0x4080ede8 0x00000008 0[37mx[37ma5a5a5a5 0xa5a5a5a5 0x303133a5
+4080ed70: 0xffffffff 0xa5a5a5a5[37m [37m0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5[37ma[37m5
+4080ed90: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5[37ma[37m5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080edb0: 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x[37ma[37m5a5a5a5
+4080edd0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5 0xa5a5a5a5 0x37383034 0x30366463
+4080edf0: 0x0000018[37m2[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x420101f4 0xa5a5a5a5 0xa5a5a[37m5[37ma5 0xa5a5a5a5
+4080ee10: 0x0000000e 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee30: 0x0[37m0[37m000001 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0[37mx[37ma5a5a5a5 0xa5a5a5a5
+4080ee50: 0x00000000 0xa5a5a5a5 0xa5a5a5a5[37m [37m0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee7[37m0[37m: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5[37ma[37m5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee90: 0x00000000 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4[37m0[37m80eeb0: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4087cd38 [37m0[37mxa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080eed0: 0xa5a5a5a5 0xa5a5a5a[37m5[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a[37m5[37ma5
+4080eef0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ef10: 0xa5a5a5a5 0xa[37m5[37ma5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0[37mx[37ma5a5a5a5
+4080ef30: 0xa5a5a5a5 0x00000000 0x4080fa90 0x40804e72[37m [37m0x00000000 0x00000000 0x4080fa90 0x4080546a
+4080ef50: 0x40806c[37me[37m8 0x40028140 0x10000000 0x00000000 0x00000009 0x00000000 0x0000[37m0[37m000 0x00000069
+4080ef70: 0x00000000 0xffffffff 0x4080fa90 0x00[37m0[37m00000 0x00000013 0x4080f174 0x4080fa90 0x40805614
+4080ef90: 0x[37m4[37m080dfc0 0x00000004 0x4080a3d8 0x40802496 0x00000001 0x00000000 [37m0[37mx00000012 0x42008bca
+4080efb0: 0x00000013 0x0000000a 0x0000001[37m3[37m 0x40802540 0x00000004 0x4080cce4 0x4080cce4 0x408055cc
+4080ef[37md[37m0: 0x00000053 0x00000004 0x4080f01c 0x40802496 0x4080dfc0 0x000[37m0[37m0000 0x4080cce4 0x40804e72
+4080eff0: 0x00000000 0x00000000 0x4[37m0[37m80cce4 0x4080546a 0x0000000e 0x00004000 0x00000000 0x00000000
+[37m4[37m080f010: 0x00000013 0x4080f1d0 0x4080cb50 0x4080cce4 0x00000000[37m [37m0xffffffff 0x4080cb50 0x00000000
+
+
+
+ELF file SHA256: eeb8f8[37mf[37mf8809c495
+
+Rebooting...
+E[37mS[37mP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boo[37mt[37m:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mo[37md[37me:DIO, clock div:2
+load:0x4086c410,len:0xd4c
+load:0x4086e610,[37ml[37men:0x2dd4
+load:0x40875728,len:0x17d0
+entry 0x4086c410
+[0;32[37mm[37mI (26) boot: ESP-IDF 5.1.2 2nd stage bootloader[0m
+[0;32mI ([37m2[37m7) boot: compile time Sep  9 2024 14:47:03[0m
+[0;32mI (28) b[37mo[37mot: chip revision: v0.0[0m
+[0;32mI (30) boot.esp32c6: SPI Sp[37me[37med      : 80MHz[0m
+[0;32mI (34) boot.esp32c6: SPI Mode      [37m [37m: DIO[0m
+[0;32mI (39) boot.esp32c6: SPI Flash Size : 4MB[0m[37m[37m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[37m[37m[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ##[37m [37mLabel            Usage          Type ST Offset   Length[0m
+[[37m0[37m;32mI (60) boot:  0 nvs              WiFi data        01 02 000[37m0[37m9000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF d[37ma[37mta          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2[37m [37mfactory          factory app      00 00 00010000 00100000[0m
+[37m[37m[0;32mI (83) boot: End of partition table[0m
+[0;32mI (87) es[37mp[37m_image: segment 0: paddr=00010020 vaddr=42010020 size=08578h ( [37m3[37m4168) map[0m
+[37m[37m[0;32mI (109) esp_image: segment 1: paddr=000185a0 vaddr=408000[37m0[37m0 size=07a78h ( 31352) load[0m
+[37m[37m[0;32mI (125) esp_image: segment 2: paddr=00020020 vaddr=420000[37m2[37m0 size=0fea0h ( 65184) map[0m
+[37m[37m[0;32mI (153) esp_image: segment 3: paddr=0002fec8 vaddr=40807a[37m7[37m8 size=026f0h (  9968) load[0m
+[0;32mI (159) esp_image: segm[37me[37mnt 4: paddr=000325c0 vaddr=4080a170 size=010d8h (  4312) load[[37m0[37mm
+[0;32mI (167) boot: Loaded app from partition at offset 0x1[37m0[37m000[0m
+[0;32mI (168) boot: Disabling RNG early entropy sourc[37me[37m...[0m
+[0;32mI (182) cpu_start: Unicore app[0m
+[0;32mI (1[37m8[37m2) cpu_start: Pro cpu up.[0m
+[37m[37m[0;33mW (192) clk: esp_perip_clk_init() has not been implemente[37md[37m yet[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m[37m[37m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI[37m [37m(199) cpu_start: Application information:[0m
+[0;32mI (201) c[37mp[37mu_start: Project name:     neoring[0m
+[0;32mI (206) cpu_star[37mt[37m: App version:      1[0m
+[0;32mI (211) cpu_start: Compile ti[37mm[37me:     Sep  9 2024 14:47:06[0m
+[0;32mI (217) cpu_start: ELF [37mf[37mile SHA256:  eeb8f8ff8809c495...[0m
+[0;32mI (223) cpu_start:[37m [37mESP-IDF:          5.1.2[0m
+[0;32mI (228) cpu_start: Min chip[37m [37mrev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     [37mv[37m0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.0[0m[37m[37m
+[0;32mI (242) heap_init: Initializing. RAM available for dyna[37mm[37mic allocation:[0m
+[0;32mI (249) heap_init: At 4080C110 len 0[37m0[37m070500 (449 KiB): D/IRAM[0m
+[0;32mI (256) heap_init: At 4087[37mC[37m610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (262) heap[37m_[37minit: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI ([37m2[37m69) spi_flash: detected chip: generic[0m
+[0;32mI (273) spi_f[37ml[37mash: flash io: dio[0m
+[0;32mI (277) sleep: Configure to isol[37ma[37mte all GPIO pins in sleep state[0m
+[0;32mI (284) sleep: Enab[37ml[37me automatic switching of GPIO sleep configuration[0m
+[0;32mI[37m [37m(291) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI (29[37m7[37m) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (302) app_[37ms[37mtart: Starting scheduler on CPU0[0m
+[0;32mI (306) main_task:[37m [37mStarted on CPU0[0m
+[0;32mI (306) main_task: Calling app_main[37m([37m)[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 100 0 0, 0x4087cd4[37m8[37m
+Neopixel ID: 1 in pointer 0x4087cd48: 100 0 0, 0x4087cd58
+Ne[37mo[37mpixel ID: 2 in pointer 0x4087cd58: 100 0 0, 0x4087cd68
+Neopixe[37ml[37m ID: 3 in pointer 0x4087cd68: 100 0 0, 0x4087cd78
+Neopixel ID:[37m [37m4 in pointer 0x4087cd78: 100 0 0, 0x4087cd88
+Neopixel ID: 5 in[37m [37mpointer 0x4087cd88: 100 0 0, 0x4087cd98
+Neopixel ID: 6 in poin[37mt[37mer 0x4087cd98: 100 0 0, 0x4087cda8
+Neopixel ID: 7 in pointer 0[37mx[37m4087cda8: 100 0 0, 0x4087cdb8
+Neopixel ID: 8 in pointer 0x4087[37mc[37mdb8: 100 0 0, 0x4087cdc8
+Neopixel ID: 9 in pointer 0x4087cdc8:[37m [37m100 0 0, 0x4087cdd8
+Neopixel ID: 10 in pointer 0x4087cdd8: 100[37m [37m0 0, 0x4087cde8
+Neopixel ID: 11 in pointer 0x4087cde8: 100 0 0[37m,[37m 0x4087cd38
+Buffer: 0x6400006400006400006400006400006400006400[37m0[37m0640000640000640000640000640000
+Initializing Neopixel Driver
+[37m[37m[0;32mI (386) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrai[37mn[37m: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+Driver Initialized
+W[37mr[37miting to Neopixel Ring
+[0;31mE (396) rmt: rmt_new_tx_channel([37m2[37m15): mem_block_symbols must be even and at least 48[0m
+G[37mu[37mru Meditation Error: Core  0 panic'ed (Load access fault). Exce[37mp[37mtion was unhandled.
+
+Core  0 register dump:
+MEPC    : 0x4200[37m1[37mb14  RA      : 0x4200023c  SP      : 0x4080ec30  GP      : 0x40[37m8[37m0a970  
+TP      : 0x40806ce8  T0      : 0x40028192  T1      : [37m0[37mx40000000  T2      : 0x00000000  
+S0/FP   : 0x4087cdf8  S1    [37m [37m : 0x00000000  A0      : 0x0000000b  A1      : 0x4080e818  
+A2[37m [37m     : 0x00000000  A3      : 0x00000001  A4      : 0x4080c000  [37mA[37m5      : 0x00000000  
+A6      : 0x00000001  A7      : 0x000000[37m0[37ma  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00[37m0[37m00000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x[37m0[37m0000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     [37m:[37m 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4  [37m [37m   : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
+[37mM[37mSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000005[37m [37m MTVAL   : 0x0000002f  
+MHARTID : 0x00000000  
+
+Stack memory[37m:[37m
+4080ec30: 0x00000000 0x00000000 0x4087cdf8 0x4200023c 0x00000[37m0[37m00 0x00000000 0xffffffff 0x7fefffff
+4080ec50: 0x00000000 0x3fe[37m0[37m0000 0x4080f1d0 0x4080cce4 0x00000000 0x3fc00000 0x00000000 0x4[37m0[37m300000
+4080ec70: 0x42010168 0x00000003 0x00000000 0x4003ca9c 0[37mx[37ma5a5a5a5 0x00000078 0x00000000 0x4080f0a0
+4080ec90: 0x00000000[37m [37m0x00000000 0x00000000 0x00000009 0x00000000 0x00000006 0x000000[37m0[37m1 0x00000001
+4080ecb0: 0x00000000 0x4004e20c 0x4004aa54 0x0000[37m0[37m000 0x4080eccc 0x00000000 0x00000000 0x42010391
+4080ecd0: 0x00[37m0[37m00006 0x4080ed6f 0x00000001 0xa5a5a5a5 0x00000000 0x3fc00000 0x[37m0[37m0000000 0x40300000
+4080ecf0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4080f0e0
+4080ed10[37m:[37m 0xa5a5a5a5 0x00a5a5a5 0xa5a57830 0x00000003 0x00000000 0xa5a5a[37m5[37ma5 0xa5a5a5a5 0xa5a5a5a5
+4080ed30: 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0x4080ed4c 0x00000000 0x00000000 0x400494bc
+40[37m8[37m0ed50: 0x00000001 0x4080edef 0x00000001 0x4080ede8 0x00000008 0[37mx[37ma5a5a5a5 0xa5a5a5a5 0x303133a5
+4080ed70: 0xffffffff 0xa5a5a5a5[37m [37m0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5[37ma[37m5
+4080ed90: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5[37ma[37m5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080edb0: 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x[37ma[37m5a5a5a5
+4080edd0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 [37m0[37mxa5a5a5a5 0xa5a5a5a5 0x37383034 0x30366463
+4080edf0: 0x0000018[37m2[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x420101f4 0xa5a5a5a5 0xa5a5a[37m5[37ma5 0xa5a5a5a5
+4080ee10: 0x0000000e 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee30: 0x0[37m0[37m000001 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0[37mx[37ma5a5a5a5 0xa5a5a5a5
+4080ee50: 0x00000000 0xa5a5a5a5 0xa5a5a5a5[37m [37m0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee7[37m0[37m: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x00000000 0xa5a5[37ma[37m5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ee90: 0x00000000 0xa5a5a5a5 0xa5[37ma[37m5a5a5 0xa5a5a5a5 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4[37m0[37m80eeb0: 0x00000000 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x4087cd38 [37m0[37mxa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080eed0: 0xa5a5a5a5 0xa5a5a5a[37m5[37m 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a[37m5[37ma5
+4080eef0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a[37m5[37ma5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+4080ef10: 0xa5a5a5a5 0xa[37m5[37ma5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0[37mx[37ma5a5a5a5
+4080ef30: 0xa5a5a5a5 0x00000000 0x4080fa90 0x40804e72[37m [37m0x00000000 0x00000000 0x4080fa90 0x4080546a
+4080ef50: 0x40806c[37me[37m8 0x40028140 0x10000000 0x00000000 0x00000009 0x00000000 0x0000[37m0[37m000 0x00000069
+4080ef70: 0x00000000 0xffffffff 0x4080fa90 0x00[37m0[37m00000 0x00000013 0x4080f174 0x4080fa90 0x40805614
+4080ef90: 0x[37m4[37m080dfc0 0x00000004 0x4080a3d8 0x40802496 0x00000001 0x00000000 [37m0[37mx00000012 0x42008bca
+4080efb0: 0x00000013 0x0000000a 0x0000001[37m3[37m 0x40802540 0x00000004 0x4080cce4 0x4080cce4 0x408055cc
+4080ef[37md[37m0: 0x00000053 0x00000004 0x4080f01c 0x40802496 0x4080dfc0 0x000[37m0[37m0000 0x4080cce4 0x40804e72
+4080eff0: 0x00000000 0x00000000 0x4[37m0[37m80cce4 0x4080546a 0x0000000e 0x00004000 0x00000000 0x00000000
+[37m4[37m080f010: 0x00000013 0x4080f1d0 0x4080cb50 0x4080cce4 0x00000000[37m [37m0xffffffff 0x4080cb50 0x00000000
+
+
+
+ELF file SHA256: eeb8f8[37mf[37mf8809c495
+
+Rebooting...
+E[37mS[37mP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boo[37mt[37m:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mo[37md[37me:DIO, clock div:2
+load:0x4086c410,len:0xd4c
+load:0x4086e610,[37ml[37men:0x2dd4
+load:0x40875728,len:0x17d0
+entry 0x4086c410
+[0;32[37mm[37mI (26) boot: ESP-IDF 5.1.2 2nd stage bootloader[0m
+[0;32mI ([37m2[37m7) boot: compile time Sep  9 2024 14:47:03[0m
+[0;32mI (28) b[37mo[37mot: chip revision: v0.0[0m
+[0;32mI (30) boot.esp32c6: SPI Sp[37me[37med      : 80MHz[0m
+[0;32mI (34) boot.esp32c6: SPI Mode      [37m [37m: DIO[0m
+[0;32mI (39) boot.esp32c6: SPI Flash Size : 4MB[0m[37m[37m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[37m[37m[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (53) boot: ##[37m [37mLabel            Usage          Type ST Offset   Length[0m
+[[37m0[37m;32mI (60) boot:  0 nvs              WiFi data        01 02 000[37m0[37m9000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF d[37ma[37mta          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2[37m [37mfactory          factory app      00 00 00010000 00100000[0m
+[37m[37m[0;32mI (83) boot: End of partition table[0m
+[0;32mI (87) es[37mp[37m_image: segment 0: paddr=00010020 vaddr=42010020 size=08578h ( [37m3[37m4168) map[0m
+[37m[37m[0;32mI (109) esp_image: segment 1: paddr=000185a0 vaddr=408000[37m0[37m0 size=07a78h ( 31352) load[0m
+[37m[37m[0;32mI (125) esp_image: segment 2: paddr=00020020 vaddr=420000[37m2[37m0 size=0fea0h ( 65184) map[0m
+[37m[37m[0;32mI (153) esp_image: segment 3: paddr=0002fec8 vaddr=40807a[37m7[37m8 size=026f0h (  9968) load[0m
+[0;32mI (159) esp_image: segm[37me[37mnt 4: paddr=000325c0 vaddr=4080a170 size=010d8h (  4312) load[[37m0[37mm
+[0;32mI (167) boot: Loaded app from partition at offset 0x1[37m0[37m000[0m
+[0;32mI (168) boot: Disabling RNG early entropy sourc[37me[37m...[0m
+[0;32mI (182) cpu_start: Unicore app[0m
+[0;32mI (1[37m8[37m2) cpu_start: Pro cpu up.[0m
+[37m[37m[0;33mW (192) clk: esp_perip_clk_init() has not been implemente[37md[37m yet[0m
+[0;32mI (198) cpu_start: Pro cpu start user code[0m[37m[37m
+[0;32mI (199) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI[37m [37m(199) cpu_start: Application information:[0m
+[0;32mI (201) c[37mp[37mu_start: Project name:     neoring[0m
+[0;32mI (206) cpu_star[37mt[37m: App version:      1[0m
+[0;32mI (211) cpu_start: Compile ti[37mm[37me:     Sep  9 2024 14:47:06[0m
+[0;32mI (217) cpu_start: ELF [37mf[37mile SHA256:  eeb8f8ff8809c495...[0m
+[0;32mI (223) cpu_start:[37m [37mESP-IDF:          5.1.2[0m
+[0;32mI (228) cpu_start: Min chip[37m [37mrev:     v0.0[0m
+[0;32mI (232) cpu_start: Max chip rev:     [37mv[37m0.99 [0m
+[0;32mI (237) cpu_start: Chip rev:         v0.0[0m[37m[37m
+[0;32mI (242) heap_init: Initializing. RAM available for dyna[37mm[37mic allocation:[0m
+[0;32mI (249) heap_init: At 4080C110 len 0[37m0[37m070500 (449 KiB): D/IRAM[0m
+[0;32mI (256) heap_init: At 4087[37mC[37m610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (262) heap[37m_[37minit: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI ([37m2[37m69) spi_flash: detected chip: generic[0m
+[0;32mI (273) spi_f[37ml[37mash: flash io: dio[0m
+[0;32mI (277) sleep: Configure to isol[37ma[37mte all GPIO pins in sleep state[0m
+[0;32mI (284) sleep: Enab[37ml[37me automatic switching of GPIO sleep configuration[0m
+[0;32mI[37m [37m(291) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI (29[37m7[37m) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (302) app_[37ms[37mtart: Starting scheduler on CPU0[0m
+[0;32mI (306) main_task:[37m [37mStarted on CPU0[0m
+[0;32mI (306) main_task: Calling app_main[37m([37m)[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 100 0 0, 0x4087cd4[37m8[37m
+Neopixel ID: 1 in pointer 0x4087cd48: 100 0 0, 0x4087cd58
+Ne[37mo[37mpixel ID: 2 in pointer 0x4087cd58: 100 0 0, 0x4087cd68
+Neopixe[37ml[37m ID: 3 in pointer 0x4087cd68: 100 0 0, 0x4087cd78
+Neopixel ID:[37m [37m4 in pointer 0x4087cd78: 100 0 0, 0x4087cd88
+Neopixel ID: 5 in[37m [37mpointer 0x4087cd88: 100 0 0, 0x4087cd98
+Neopixel ID: 6 in poin

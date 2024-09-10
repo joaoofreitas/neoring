@@ -1,0 +1,81 @@
+[37mE[37mSP-ROM:esp32c6-20220919
+B[37mu[37mild:Sep 19 2022
+rst:0x1 (POWERON),boot:0xc (SPI_FAST_FLASH_BOO[37mT[37m)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x4086c410,len:0xd4c[37m[37m
+load:0x4086e610,len:0x2dd4
+load:0x40875728,len:0x17d0
+entry [37m0[37mx4086c410
+[0;32mI (23) boot: ESP-IDF 5.1.2 2nd stage bootload[37me[37mr[0m
+[0;32mI (24) boot: compile time Sep  9 2024 14:47:03[0[37mm[37m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (26) bo[37mo[37mt.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32[37mc[37m6: SPI Mode       : DIO[0m
+[0;32mI (36) boot.esp32c6: SPI Fl[37ma[37msh Size : 4MB[0m
+[0;32mI (41) boot: Enabling RNG early entro[37mp[37my source...[0m
+[0;32mI (46) boot: Partition Table:[0m
+[0;[37m3[37m2mI (49) boot: ## Label            Usage          Type ST Offse[37mt[37m   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi dat[37ma[37m        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy[37m_[37minit         RF data          01 01 0000f000 00001000[0m
+[0;[37m3[37m2mI (72) boot:  2 factory          factory app      00 00 00010[37m0[37m00 00100000[0m
+[0;32mI (79) boot: End of partition table[0m[37m[37m
+[0;32mI (83) esp_image: segment 0: paddr=00010020 vaddr=42010[37m0[37m20 size=07618h ( 30232) map[0m
+[0;32mI (98) esp_image: segme[37mn[37mt 1: paddr=00017640 vaddr=40800000 size=089d8h ( 35288) load[0[37mm[37m
+[0;32mI (108) esp_image: segment 2: paddr=00020020 vaddr=420[37m0[37m0020 size=0d3a8h ( 54184) map[0m
+[0;32mI (120) esp_image: se[37mg[37mment 3: paddr=0002d3d0 vaddr=408089d8 size=00cfch (  3324) load[37m[37m[0m
+[0;32mI (122) esp_image: segment 4: paddr=0002e0d4 vaddr=[37m4[37m08096e0 size=01068h (  4200) load[0m
+[0;32mI (129) boot: Loa[37md[37med app from partition at offset 0x10000[0m
+[0;32mI (132) boo[37mt[37m: Disabling RNG early entropy source...[0m
+[0;32mI (149) cpu[37m_[37mstart: Unicore app[0m
+[0;32mI (149) cpu_start: Pro cpu up.[[37m0[37mm
+[37m[37m[0;33mW (163) clk: esp_perip_clk_init() has not been implemente[37md[37m yet[0m
+[0;32mI (169) cpu_start: Pro cpu start user code[0m[37m[37m
+[0;32mI (170) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI[37m [37m(170) cpu_start: Application information:[0m
+[0;32mI (173) c[37mp[37mu_start: Project name:     neoring[0m
+[0;32mI (178) cpu_star[37mt[37m: App version:      1[0m
+[0;32mI (182) cpu_start: Compile ti[37mm[37me:     Sep  9 2024 14:47:06[0m
+[0;32mI (188) cpu_start: ELF [37mf[37mile SHA256:  c90e7c25cffafa2a...[0m
+[0;32mI (194) cpu_start:[37m [37mESP-IDF:          5.1.2[0m
+[0;32mI (199) cpu_start: Min chip[37m [37mrev:     v0.0[0m
+[0;32mI (203) cpu_start: Max chip rev:     [37mv[37m0.99 [0m
+[0;32mI (208) cpu_start: Chip rev:         v0.0[0m[37m[37m
+[0;32mI (213) heap_init: Initializing. RAM available for dyna[37mm[37mic allocation:[0m
+[0;32mI (220) heap_init: At 4080B600 len 0[37m0[37m071010 (452 KiB): D/IRAM[0m
+[0;32mI (227) heap_init: At 4087[37mC[37m610 len 00002F54 (11 KiB): STACK/DIRAM[0m
+[0;32mI (233) heap[37m_[37minit: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI ([37m2[37m40) spi_flash: detected chip: generic[0m
+[0;32mI (244) spi_f[37ml[37mash: flash io: dio[0m
+[0;32mI (248) sleep: Configure to isol[37ma[37mte all GPIO pins in sleep state[0m
+[0;32mI (255) sleep: Enab[37ml[37me automatic switching of GPIO sleep configuration[0m
+[0;32mI[37m [37m(262) coexist: coex firmware version: b6d5e8c[0m
+[0;32mI (26[37m8[37m) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (273) app_[37ms[37mtart: Starting scheduler on CPU0[0m
+[0;32mI (277) main_task:[37m [37mStarted on CPU0[0m
+[0;32mI (277) main_task: Calling app_main[37m([37m)[0m
+Neopixel ID: 0 in pointer 0x4087cd38: 255 255 255, 0x408[37m7[37mcd48
+Neopixel ID: 1 in pointer 0x4087cd48: 255 255 255, 0x4087[37mc[37md58
+Neopixel ID: 2 in pointer 0x4087cd58: 255 255 255, 0x4087c[37md[37m68
+Neopixel ID: 3 in pointer 0x4087cd68: 255 255 255, 0x4087cd[37m7[37m8
+Neopixel ID: 4 in pointer 0x4087cd78: 255 255 255, 0x4087cd8[37m8[37m
+[37mN[37meopixel ID: 5 in pointer 0x4087cd88: 255 255 255, 0x4087cd98
+N[37me[37mopixel ID: 6 in pointer 0x4087cd98: 255 255 255, 0x4087cda8
+Ne[37mo[37mpixel ID: 7 in pointer 0x4087cda8: 255 255 255, 0x4087cdb8
+Neo[37mp[37mixel ID: 8 in pointer 0x4087cdb8: 255 255 255, 0x4087cdc8
+Neop[37mi[37mxel ID: 9 in pointer 0x4087cdc8: 255 255 255, 0x4087cdd8
+Neopi[37mx[37mel ID: 10 in pointer 0x4087cdd8: 255 255 255, 0x4087cde8
+Neopi[37mx[37mel ID: 11 in pointer 0x4087cde8: 255 255 255, 0x4087cd38
+Neopi[37mx[37mel ID: 0: 255 255 255
+Neopixel ID: 1: 255 255 255
+Neopixel ID[37m:[37m 2: 255 255 255
+Neopixel ID: 3: 255 255 255
+Neopixel ID: 4: 2[37m5[37m5 255 255
+Neopixel ID: 5: 255 255 255
+Neopixel ID: 6: 255 255[37m [37m255
+Neopixel ID: 7: 255 255 255
+Neopixel ID: 8: 255 255 255
+[37mN[37meopixel ID: 9: 255 255 255
+Neopixel ID: 10: 255 255 255
+Neopi[37mx[37mel ID: 11: 255 255 255
+[0;32mI (407) main_task: Returned from[37m [37mapp_main()[0m
