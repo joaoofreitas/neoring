@@ -4,6 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "esp_log.h"
+#include "esp_err.h"
+
+
+static const char* TAG = "Neopixel Driver";
+
 Neopixel *init_ring(uint8_t depth, Neopixel *first) {
     Neopixel *head = (Neopixel*) malloc(sizeof(Neopixel));
     head->r = 100;
@@ -28,7 +34,7 @@ Neopixel *init_ring(uint8_t depth, Neopixel *first) {
 
 void print_status(Neopixel *ring) {
     for (int i = 0; i < DEPTH; i++) {
-	printf("Neopixel ID: %d in pointer %p: %d %d %d, %p\n", i, ring, ring->r, ring->g, ring->b, ring->next);
+	ESP_LOGI(TAG, "Neopixel ID: %d in pointer %p: %d %d %d, %p", i, ring, ring->r, ring->g, ring->b, ring->next);
 	ring = ring->next;
     } 
 }
@@ -46,7 +52,7 @@ void get_buffer(Neopixel *ring, buffer_t *buffer) {
 }
 
 void print_buffer(buffer_t *buffer) {
-    printf("Buffer: 0x");
+    ESP_LOGI(TAG, "Buffer: 0x");
     for (int i = 0; i < DEPTH; i++) {
 	printf("%02x%02x%02x", (*buffer)[i * 3], (*buffer)[i * 3 + 1], (*buffer)[i * 3 + 2]);
     }

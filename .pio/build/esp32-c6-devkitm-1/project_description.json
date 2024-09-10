@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "neoring",
-    "project_version":    "1",
+    "project_version":    "4466cce-dirty",
     "project_path":       "/home/johnny/Documents/Projects/neoring/neoring",
     "idf_path":           "/home/johnny/.platformio/packages/framework-espidf",
     "build_dir":          "/home/johnny/Documents/Projects/neoring/neoring/.pio/build/esp32-c6-devkitm-1",
@@ -1405,7 +1405,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/johnny/Documents/Projects/neoring/neoring/.pio/build/esp32-c6-devkitm-1/esp-idf/src/libsrc.a",
-            "sources": [ "/home/johnny/Documents/Projects/neoring/neoring/src/CMakeLists.txt", "/home/johnny/Documents/Projects/neoring/neoring/src/main.c", "/home/johnny/Documents/Projects/neoring/neoring/src/neopixel.c" ],
+            "sources": [ "/home/johnny/Documents/Projects/neoring/neoring/src/CMakeLists.txt", "/home/johnny/Documents/Projects/neoring/neoring/src/main.c", "/home/johnny/Documents/Projects/neoring/neoring/src/neopixel.c", "/home/johnny/Documents/Projects/neoring/neoring/src/ws2812b_rmt_driver.c" ],
             "include_dirs": []
         },
         "tcp_transport": {

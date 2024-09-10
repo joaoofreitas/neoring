@@ -27,3 +27,6 @@ void get_buffer(Neopixel *ring, buffer_t *buffer);
 
 // Print the buffer
 void print_buffer(buffer_t *buffer);
+
+// Recursive function to destroy the Neopixels Linked List
+void destroy_ring(Neopixel *ring);
