@@ -10,7 +10,7 @@
 
 static const char* TAG = "WS2812B Driver";
 
-static size_t encoder_callback(
+size_t encoder_callback(
     const void* data, size_t data_size, 
     size_t symbols_written, size_t symbols_free,
     rmt_symbol_word_t *symbols, bool* done, void *arg) {

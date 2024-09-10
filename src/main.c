@@ -6,6 +6,8 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
+#include "esp_log.h"
+
 #include "neopixel.h"
 #include "ws2812b_rmt_driver.h"
 
@@ -25,6 +27,11 @@ int app_main() {
     print_status(ring);
 
     buffer_t* buffer = (buffer_t*) malloc(sizeof(buffer_t));
+    if (buffer == NULL) {
+	ESP_LOGE(TAG, "Failed to allocate memory for buffer");
+	return -1;
+    }
+
     get_buffer(ring, buffer);
     print_buffer(buffer);
 

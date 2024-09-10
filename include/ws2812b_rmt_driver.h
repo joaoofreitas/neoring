@@ -41,7 +41,7 @@ static const rmt_symbol_word_t ws2812_reset = {
 };
 
 
-static size_t encoder_callback(const void* data, size_t data_size, 
+size_t encoder_callback(const void* data, size_t data_size, 
     size_t symbols_written, size_t symbols_free,
     rmt_symbol_word_t *symbols, bool* done, void *arg);
 

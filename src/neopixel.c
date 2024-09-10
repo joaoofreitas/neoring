@@ -5,13 +5,16 @@
 #include <stdlib.h>
 
 #include "esp_log.h"
-#include "esp_err.h"
 
 
 static const char* TAG = "Neopixel Driver";
 
 Neopixel *init_ring(uint8_t depth, Neopixel *first) {
     Neopixel *head = (Neopixel*) malloc(sizeof(Neopixel));
+    if (head == NULL) {
+	ESP_LOGE(TAG, "Failed to allocate memory for Neopixel");
+    }
+
     head->r = 100;
     head->g = 0;
     head->b = 0;
