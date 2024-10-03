@@ -1,15 +1,37 @@
-# neoring
+# Neoring-Driver
+
 A WS2812B Implementation Driver for ESP-IDF
 
+## Overview
 
-Commands:
-`pio run -t upload`
+The Neopixel Ring is implemented as a Circular Linked List, facilitating efficient traversal and manipulation of the LEDs. Each LED points to the next, forming a loop that simplifies the management of the ring structure. This design is particularly useful for creating continuous light effects around the ring.
 
-`pio device monitor`
+### Macro for Defining Ring Size
 
-`pio run -t compiledb`
+The library provides a macro to define the size of the Neopixel Ring. This macro helps in setting up the ring with a specific number of LEDs, ensuring consistent initialization and usage throughout the code.
 
-Example usage:
+```c
+#define DEPTH 12
+```
+## Neopixel as a Circular Linked List
+
+```c
+typedef struct Neopixel {
+    uint8_t r;
+    uint8_t g;
+    uint8_t b;
+    struct Neopixel *next;
+    struct Neopixel *prev;
+} Neopixel;
+```
+
+Below is an illustration of the Circular Linked List used to represent the Neopixel Ring:
+
+![Circular Linked List](https://www.geeksforgeeks.org/wp-content/uploads/CircularLinkedList.png)
+
+
+### Example Usage
+Here's an example of how to initialize and use the Neopixel Ring:
 
 ```c
 #include <stdio.h>
@@ -42,8 +64,8 @@ int app_main() {
 
     buffer_t* buffer = (buffer_t*) malloc(sizeof(buffer_t));
     if (buffer == NULL) {
-	ESP_LOGE(TAG, "Failed to allocate memory for buffer");
-	return -1;
+        ESP_LOGE(TAG, "Failed to allocate memory for buffer");
+        return -1;
     }
 
     get_buffer(ring, buffer);
@@ -52,5 +74,12 @@ int app_main() {
     
     return 0;
 }
-
 ```
+
+## Functions
+
+- **init_ring**: Allocates memory and initializes the Neopixels Linked List.
+- **print_status**: Prints the status of the Neopixels Linked List.
+- **get_buffer**: Transforms the Linked List into a buffer.
+- **print_buffer**: Prints the buffer.
+- **destroy_ring**: Recursively destroys the Neopixels Linked List.
